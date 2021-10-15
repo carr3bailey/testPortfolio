@@ -1,0 +1,101 @@
+@import "nord.css";
+
+* {
+  font-family: 'Open Sans', sans-serif;
+}
+body {
+  background-color: #242933;
+  color: var(--nord4);
+  height: 100vh;
+  margin:0;
+}
+
+.avatar{
+  height: 2.5vw;
+  border-radius: 50%;
+  float: left;
+  vertical-align: middle;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+
+/* The navbar container */
+#topnav {
+    overflow: hidden;
+    background-color: #242933;
+    margin: auto;
+    padding-top: 1vw;
+    padding-left: 0.5vw;
+    padding-bottom: 0.5vw;
+    box-shadow: 0 4px 2px -2px #202020b6;
+    position: fixed;
+    z-index: 999;
+    width: 100%;
+    top: 0;
+  }
+
+
+  /* Right-aligned section inside the top navigation */
+.topnav-right {
+  float: right;
+}
+  .myButton{
+    background:url(moon.png) no-repeat;
+    cursor:pointer;
+    border:none;
+    width:50px;
+    height:50px;
+    vertical-align: middle;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+ 
+}
+
+.myButton:hover {
+     background-color: var(--nord1);
+}
+  /* Navbar links */
+  #topnav a {
+    float: left;
+    color: var(--nord4);
+    text-align: center;
+    padding: 10px 16px;
+    text-decoration: none;
+    margin: auto;
+    font-size: 1vw ;
+    vertical-align: middle;
+    border-radius: 5px;
+    }
+    
+  #column{
+    text-align: left;
+    width: 85%;
+    margin: 6vw auto;
+    background-color: var(--nord0);
+    padding: 10px;
+    box-shadow: 0 0 1vw #202020b6;
+    border-radius: 5px;
+  }
+  h2{
+    margin-top: 0;
+  }
+
+  body{ 
+    display:flex; 
+    flex-direction:column; 
+  }
+
+ footer {
+    background-color: var(--nord1);
+    padding: 20px;
+    text-align: center;
+    min-height:50px;
+    margin-top:auto
+  }
+  

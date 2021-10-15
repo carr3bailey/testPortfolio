@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>Portfolio</title>
+  <link rel="stylesheet" href="dark.css" id="dark"  title="Dark">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans">
+  <link rel="stylesheet alternate" href="light.css" id="light" title="Light">
+</head>
+
+<body>
+    <! –– This Div will be used for navigation at the top ––>
+      <div id="topnav">
+        <a href="home.html"><img src="img_avatar.png" alt="Avatar" class="avatar"></a>
+        <a onmouseover="style.color='#e5e9f0'" onmouseout="style.color='#d8dee9'" href="html.html">HTML</a>
+        <a onmouseover="style.color='#e5e9f0'" onmouseout="style.color='#d8dee9'" href="css.html">CSS</a>
+        <a onmouseover="style.color='#e5e9f0'" onmouseout="style.color='#d8dee9'" href="javascript.html">JavaScript</a>
+        <a onmouseover="style.color='#e5e9f0'" onmouseout="style.color='#d8dee9'" href="python.html">Python</a>
+        <div id=topnav-right>
+        <input class="myButton" type="button" value="" style="float: right;">
+        </div>
+        </div>
+      <! –– This column will be used for content––>
+        <div id="column">
+          <h2>CSS</h2>
+          <img id="myImage" src="hello.gif" style="width:500px"> <br>
+          <button onclick="document.getElementById('myImage').src='hello.gif'">Hello there</button>
+          <button onclick="document.getElementById('myImage').src='kenobi.gif'">General Kenobi</button>
+          <button onclick="document.getElementById('myImage').src='doit.gif'">Do it.</button>
+        </div>
+        <! –– This footer will be used for info and colour schme switch ––>
+          <footer>
+            <h1>Footer</h1>
+          </footer>
+</body>
+</html>
