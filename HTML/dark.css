@@ -39,7 +39,7 @@ body {
 }
   .myButton{
     display: block;
-    margin-right: 20px;
+    margin-right: 30px;
     background:url(moon.png) no-repeat;
     background-position: center;
     cursor:pointer;
@@ -69,13 +69,10 @@ body {
     }
     
   #column{
-    position: relative;
-    top: 15%;
-    bottom: 15%;
+    position: static;
     text-align: left;
     width: 85%;
     margin: auto;
-    margin-bottom: 100px;
     background-color: var(--nord0);
     padding: 10px;
     box-shadow: 0 0 1vw #202020b6;
