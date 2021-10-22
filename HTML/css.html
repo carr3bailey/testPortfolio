@@ -3,15 +3,15 @@
 
 <head>
   <title>Portfolio</title>
-  <link rel="stylesheet" href="dark.css" id="dark"  title="Dark">
+  <link rel="stylesheet" href="../CSS/dark.css" id="dark"  title="Dark">
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans">
-  <link rel="stylesheet alternate" href="light.css" id="light" title="Light">
+  <link rel="stylesheet alternate" href="../CSS/light.css" id="light" title="Light">
 </head>
 
 <body>
     <! –– This Div will be used for navigation at the top ––>
       <div id="topnav">
-        <a href="home.html"><img src="img_avatar.png" alt="Avatar" class="avatar"></a>
+        <a href="home.html"><img src="../IMG/img_avatar.PNG" alt="Avatar" class="avatar"></a>
         <a onmouseover="style.color='#e5e9f0'" onmouseout="style.color='#d8dee9'" href="html.html">HTML</a>
         <a onmouseover="style.color='#e5e9f0'" onmouseout="style.color='#d8dee9'" href="css.html">CSS</a>
         <a onmouseover="style.color='#e5e9f0'" onmouseout="style.color='#d8dee9'" href="javascript.html">JavaScript</a>
@@ -23,14 +23,21 @@
       <! –– This column will be used for content––>
         <div id="column">
           <h2>CSS</h2>
-          <img id="myImage" src="hello.gif" style="width:500px"> <br>
-          <button onclick="document.getElementById('myImage').src='hello.gif'">Hello there</button>
-          <button onclick="document.getElementById('myImage').src='kenobi.gif'">General Kenobi</button>
-          <button onclick="document.getElementById('myImage').src='doit.gif'">Do it.</button>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer non blandit dui. Etiam nisi enim, pellentesque at pulvinar sit amet, scelerisque id elit. Sed eleifend at dui ut ullamcorper. Quisque sit amet felis accumsan dui vehicula elementum. Vivamus et est lorem. Sed scelerisque molestie odio. Donec porttitor, enim semper egestas imperdiet, eros arcu ornare tortor, nec mattis enim mi a diam. Vestibulum lobortis mi sem, id blandit nunc consequat tempus. Fusce ex leo, euismod et semper a, congue ut nibh. Pellentesque et faucibus enim. Vivamus cursus interdum nisl, at imperdiet lorem consectetur ac. Aenean id nisi lobortis, sollicitudin ex sed, rhoncus tortor. In aliquam sed sapien id dapibus. Donec sit amet neque a turpis tincidunt ultricies a sit amet erat. Sed varius, odio ac eleifend tempus, nulla mauris vestibulum felis, in convallis nulla arcu in enim. Donec varius nunc viverra, tincidunt felis ut, varius magna. </p>
+          <div class="row">
+            <div class="column">
+              <img src="../IMG/doit.gif" alt="Snow" style="width:100%">
+            </div>
+            <div class="column">
+              <img src="../IMG/hello.gif" alt="Forest" style="width:100%">
+            </div>
+          </div>
         </div>
         <! –– This footer will be used for info and colour schme switch ––>
           <footer>
-            <h1>Footer</h1>
+            <div class="footerimg">
+            <a href="https://www.github.com/carr3bailey"><img src="../IMG/github.png" class="github" ></a>
+            </div>
           </footer>
 </body>
 </html>
